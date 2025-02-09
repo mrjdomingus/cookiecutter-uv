@@ -2,7 +2,7 @@
 name = "cookiecutter-uv"
 version = "0.0.1"
 description = "A python cookiecutter application to create a new python project that uses uv to manage its dependencies."
-authors = [{ name = "Florian Maas", email = "fpgmaas@gmail.com" }]
+authors = [{ name = "Marcel Domingus", email = "domingus@xs4all.nl" }]
 readme = "README.md"
 keywords = ['cookiecutter', 'template', 'uv']
 requires-python = ">=3.9,<4.0"
@@ -26,9 +26,9 @@ classifiers = [
 
 
 [project.urls]
-Repository = "https://github.com/fpgmaas/cookiecutter-uv"
-Documentation = "https://fpgmaas.github.io/cookiecutter-uv/"
-Homepage = "https://fpgmaas.github.io/cookiecutter-uv/"
+Repository = "https://github.com/mrjdomingus/cookiecutter-uv"
+Documentation = "https://mrjdomingus.github.io/cookiecutter-uv/"
+Homepage = "https://mrjdomingus.github.io/cookiecutter-uv/"
 
 [dependency-groups]
 dev = [
