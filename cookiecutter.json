@@ -13,6 +13,10 @@
     "codecov": ["y", "n"],
     "dockerfile": ["y", "n"],
     "devcontainer": ["y", "n"],
+  "type_checker": [
+    "mypy",
+    "ty"
+  ],    
     "open_source_license": [
         "MIT license",
         "BSD license",
