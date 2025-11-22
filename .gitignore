@@ -140,5 +140,8 @@ cython_debug/
 # Exclude vscode config files
 .vscode/
 
+# Include mcp.json
+!.vscode/mcp.json
+
 # Exclude .DS_Store files from being added
 .DS_Store
