@@ -5,7 +5,7 @@ description = "A python cookiecutter application to create a new python project 
 authors = [{ name = "Marcel Domingus", email = "domingus@xs4all.nl" }]
 readme = "README.md"
 keywords = ['cookiecutter', 'template', 'uv']
-requires-python = ">=3.9,<4.0"
+requires-python = ">=3.12,<4.0"
 dependencies = [
   "cookiecutter>=2.1.1"
 ]
@@ -15,9 +15,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
@@ -84,7 +81,7 @@ extend_exclude = [
 DEP002 = ["cookiecutter"]
 
 [tool.ruff]
-target-version = "py39"
+target-version = "py312"
 line-length = 120
 fix = true
 
